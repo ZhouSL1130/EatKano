@@ -1,6 +1,6 @@
 <?php
 // Change this to your own configuration
-$link = new mysqli('localhost','root','a4d91711646c2de8','kano');
+$link = new mysqli('localhost','kano','a4d91711646c2de8','kano');
 mysqli_set_charset($link, 'utf8');
 if ($link->connect_error) {
     die("Failed to connect: " . $conn->connect_error);
